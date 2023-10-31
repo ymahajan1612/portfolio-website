@@ -1,0 +1,47 @@
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: white;
+  border: solid;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  font-weight: bold;
+  float: right;
+  font-size: 30px;
+}
+
+ul {
+  display: block;
+}
+
+.name {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  border-bottom: solid;
+  border-bottom-width: 7px;
+  padding: 0;
+  color: aqua;
+}
