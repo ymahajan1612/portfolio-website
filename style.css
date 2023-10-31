@@ -62,20 +62,40 @@ a:hover {
   font-size: 70px;
   font-weight: bolder;
   text-align: center;
-  margin-right: 12vw;
+}
+
+.about-me-text {
+  font-size: 40px;
+  max-width: 50%;
+  font-weight: bolder;
+  margin: 10%;
+  margin-top: 25%;
+  position: relative;
+  top: -100px;
 }
 
 p {
-  padding: 0;
   margin: 0;
 }
 
 #bio {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+#about-me {
+  display: flex;
+  justify-content: space-between;
 }
 
 .bio-emoji img {
   width: 10%;
   padding: 5%;
+  margin-top: 5px;
+  border-radius: 50%;
+  border: dotted rgb(0, 0, 0) 7px;
+}
+
+.about-me-emoji img {
+  margin: 20%;
 }
