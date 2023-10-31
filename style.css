@@ -3,45 +3,79 @@ html {
   padding: 0;
   scroll-behavior: smooth;
   font-family: sans-serif;
+  border-radius: 5%;
 }
-
+body {
+  margin-top: 10%;
+}
 header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 99;
-  background-color: white;
-  border: solid;
+  margin-bottom: 40px;
 }
 
 li {
   list-style-type: none;
-  padding: 10px;
+  padding: 30px;
   font-weight: bold;
   float: right;
-  font-size: 30px;
-}
-
-ul {
-  display: block;
+  font-size: 40px;
 }
 
 .name {
-  padding: 10px;
+  padding: 30px;
+  float: left;
+  font-size: 40px;
+  padding-bottom: 0;
   font-weight: bold;
-  font-size: 35px;
-  margin-top: 0;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #000;
 }
 
 a:hover {
   border-bottom: solid;
   border-bottom-width: 7px;
+  font-size: 36px;
+  color: black;
+}
+
+.name:hover {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 20px;
+}
+
+#profile-image {
+  width: 50%;
+  border-radius: 50%;
+  border: dotted rgb(0, 0, 0) 7px;
+  filter: drop-shadow(40px 40px 40px rgb(124, 123, 123));
+}
+
+.bio-text {
+  font-size: 70px;
+  font-weight: bolder;
+  text-align: center;
+  margin-right: 12vw;
+}
+
+p {
   padding: 0;
-  color: aqua;
+  margin: 0;
+}
+
+#bio {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bio-emoji img {
+  width: 10%;
+  padding: 5%;
 }
