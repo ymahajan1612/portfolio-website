@@ -7,6 +7,7 @@ html {
 }
 body {
   margin-top: 10%;
+  background-color: rgb(8, 28, 41);
 }
 header {
   position: fixed;
@@ -15,63 +16,71 @@ header {
   width: 100%;
   z-index: 99;
   margin-bottom: 40px;
+  border-bottom: solid;
+  color: white;
+  background-color: rgb(8, 28, 41);
 }
 
 li {
   list-style-type: none;
-  padding: 30px;
+  padding: 2%;
   font-weight: bold;
   float: right;
-  font-size: 40px;
+  font-size: 5vh;
 }
 
 .name {
-  padding: 30px;
+  padding: 2%;
   float: left;
-  font-size: 40px;
+  font-size: 5vh;
   padding-bottom: 0;
   font-weight: bold;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: white;
 }
 
 a:hover {
   border-bottom: solid;
-  border-bottom-width: 7px;
-  font-size: 36px;
-  color: black;
+  border-bottom-width: 0.5vh;
+  font-size: 5.5vh;
+  color: #139bd8;
 }
 
 .name:hover {
   padding-left: 0;
   padding-right: 0;
-  margin-left: 20px;
 }
 
 #profile-image {
-  width: 50%;
+  width: 20%;
   border-radius: 50%;
-  border: dotted rgb(0, 0, 0) 7px;
-  filter: drop-shadow(40px 40px 40px rgb(124, 123, 123));
+  position: absolute;
+  left: 75%;
+  margin-left: -2vw;
+  top: 25%;
+  border: dotted #139bd8 7px;
+  filter: drop-shadow(40px 40px 40px rgb(0, 0, 0));
 }
 
 .bio-text {
-  font-size: 70px;
+  font-size: 7vh;
   font-weight: bolder;
   text-align: center;
+  color: white;
 }
 
 .about-me-text {
-  font-size: 40px;
+  font-size: 5vh;
   max-width: 50%;
   font-weight: bolder;
   margin: 10%;
   margin-top: 25%;
   position: relative;
-  top: -100px;
+  top: -15vh;
+  color: white;
 }
 
 p {
@@ -89,13 +98,22 @@ p {
 }
 
 .bio-emoji img {
-  width: 10%;
-  padding: 5%;
-  margin-top: 5px;
+  width: 8%;
+  padding: 2.5%;
+  margin-top: 5%;
   border-radius: 50%;
-  border: dotted rgb(0, 0, 0) 7px;
+  border: dotted #139bd8 7px;
 }
 
 .about-me-emoji img {
-  margin: 20%;
+  width: 30%;
+  position: relative;
+  top: 20vh;
+  margin: 5vh;
+  padding: 2vh;
+  margin-top: 0;
+  padding-top: 0;
+  border-radius: 50%;
+  border: dotted #139bd8 7px;
+  filter: drop-shadow(10px 20px 10px rgb(0, 0, 0));
 }
